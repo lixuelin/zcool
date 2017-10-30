@@ -1,0 +1,114 @@
+@charset "utf-8";
+.plan-groom {
+  padding-top: 20px;
+}
+.plan-groom ul {
+  display: flex;
+  justify-content: space-between;
+  -moz-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.plan-groom li {
+  position: relative;
+  margin-bottom: 20px;
+  -moz-flex-basis: 46%;
+  -webkit-flex-basis: 46%;
+  flex-basis: 46%;
+  background: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.plan-groom-tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 6;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  -moz-border-radius: 4px 0 4px 0;
+  -webkit-border-radius: 4px 0 4px 0;
+  border-radius: 4px 0 4px 0;
+}
+.plan-groom-img {
+  position: relative;
+  cursor: pointer;
+}
+.plan-groom-img img {
+  display: block;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+.plan-groom-img:hover:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.plan-groom-cont {
+  position: relative;
+  padding: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.plan-groom-cont h4 {
+  padding-bottom: 10px;
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.plan-groom-cont h4 a:hover {
+  color: #333;
+}
+.plan-groom-cont-close {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 0 10px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #fff;
+  background: #ffba00;
+}
+.plan-groom-cont-close:after {
+  content: " ";
+  position: absolute;
+  left: -24px;
+  top: 0;
+  border: 12px solid #FFBA00;
+  border-left-color: transparent;
+}
+.plan-groom-cont p {
+  color: #aaa;
+}
+.plan-groom-other {
+  display: flex;
+  padding: 15px 20px;
+  color: #aaa;
+}
+.plan-groom-other-time {
+  flex: 3;
+}
+.plan-groom-other-time span {
+  margin-right: 5px;
+}
+.plan-groom-other-msg {
+  flex: 8;
+  text-align: right;
+}
+.plan-groom-other-msg-arr {
+  display: inline-block;
+  margin-right: 10px;
+}
+.plan-groom-other-msg-arr span {
+  margin-right: 5px;
+}

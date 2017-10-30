@@ -1,0 +1,43 @@
+@charset "utf-8";
+.z-page {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.z-page li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.z-page a,
+.z-page span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #999;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  cursor: pointer;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.z-page span {
+  font-size: 16px;
+}
+.z-page a:hover,
+.z-page span:hover,
+.z-page li.current a,
+.z-page li.current span {
+  background: #ffd100;
+  color: #fff;
+}
+.z-page-prev {
+  visibility: hidden;
+}
+.z-page-default span,
+.z-page-default span:hover {
+  background: #ccc;
+  color: #fff;
+}

@@ -1,0 +1,195 @@
+@charset "utf-8";
+.job-detail-menu li span:hover,
+.job-detail-menu li.current span {
+  color: #ff8600;
+}
+.job-detail-menu li span:hover:after,
+.job-detail-menu li.current span:after {
+  border-bottom: 2px solid #ff8600 !important;
+}
+.job-detail-box {
+  display: flex;
+  padding-top: 40px;
+}
+.job-detail-article {
+  flex: 8;
+  margin-right: 20px;
+}
+.job-detail-article-box {
+  margin-bottom: 20px;
+  background: #fff;
+  -moz-box-shadow: 2px 2px 2px #f2f2f2, -2px -2px 2px #f2f2f2;
+  -webkit-box-shadow: 2px 2px 2px #f2f2f2, -2px -2px 2px #f2f2f2;
+  box-shadow: 2px 2px 2px #f2f2f2, -2px -2px 2px #f2f2f2;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.job-detail-article-head {
+  position: relative;
+  padding: 25px;
+  background: #fafafa;
+  border-bottom: 1px solid #f2f2f2;
+}
+.job-detail-article-who {
+  color: #ccc;
+}
+.job-detail-article-job {
+  padding: 10px 0;
+}
+.job-detail-article-pay {
+  padding-right: 10px;
+  font-size: 20px;
+  color: #ff8600;
+}
+.job-detail-article-years {
+  color: #666;
+}
+.job-detail-article-about {
+  padding-top: 30px;
+  color: #999;
+}
+.job-detail-article-share {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+.job-detail-article-body {
+  padding: 20px;
+  background: #fff;
+}
+.job-detail-article-body-cont {
+  padding: 20px;
+  color: #666;
+  border-bottom: 1px solid #f4f4f4;
+}
+.job-detail-article-body-cont h4 {
+  padding-bottom: 20px;
+}
+.job-detail-article-body-cont a {
+  color: #148cf1;
+}
+.job-detail-article-list {
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+.job-detail-article-resume {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: #666;
+}
+.job-detail-article-resume p {
+  line-height: 38px;
+}
+.job-detail-article-resume a {
+  color: #148cf1;
+}
+.job-detail-article-resume-login button {
+  padding: 8px 30px;
+  border-color: #ffd100;
+  background: #ffd100;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.job-detail-aside {
+  flex: 2;
+}
+.job-detail-aside-box {
+  margin-bottom: 20px;
+  background: #fff;
+  -moz-box-shadow: 2px 2px 2px #f2f2f2, -2px -2px 2px #f2f2f2;
+  -webkit-box-shadow: 2px 2px 2px #f2f2f2, -2px -2px 2px #f2f2f2;
+  box-shadow: 2px 2px 2px #f2f2f2, -2px -2px 2px #f2f2f2;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.job-detail-aside-box-head h4 {
+  padding: 20px;
+}
+.job-detail-company-head {
+  padding: 20px;
+}
+.job-detail-company-img {
+  margin: 0 auto;
+  width: 110px;
+  height: 110px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.job-detail-company-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.job-detail-company-name {
+  display: block;
+  padding: 20px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.job-detail-company-btn {
+  text-align: center;
+}
+.job-detail-company-btn button {
+  padding: 8px 30px;
+  background: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.job-detail-company-msg {
+  padding: 0 20px 20px;
+  border-bottom: 1px dashed #ccc;
+}
+.job-detail-company-msg li {
+  display: flex;
+  padding: 10px 0;
+}
+.job-detail-company-msg li p {
+  flex: 9;
+}
+.job-detail-company-msg-icon {
+  flex: 1;
+  vertical-align: middle;
+}
+.job-detail-company-tag {
+  padding: 20px;
+  text-align: center;
+}
+.job-detail-company-tag span {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.job-detail-company-other {
+  padding: 0 20px 20px;
+}
+.job-detail-company-other li {
+  margin-bottom: 20px;
+}
+.job-detail-company-other h4 {
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.job-detail-company-other-ask {
+  padding-bottom: 5px;
+  font-size: 13px;
+  color: #ccc;
+}
+.job-detail-company-other-pay {
+  color: #ff8600;
+}
+.job-detail-company-other p {
+  font-size: 13px;
+  color: #ccc;
+}

@@ -1,0 +1,151 @@
+{
+  "result":{
+    "menu": [
+      "设计","团队"
+    ],
+    "designers": [
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_03.png",
+        "name": "刘克兵",
+        "city": "滨州",
+        "job": "平面设计师",
+        "works": "238",
+        "follower": "23482",
+        "tip": "字体设计网课-咨询微信bin",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_05.png",
+          "../../static/images/designer_images/zcool_designer_07.png",
+          "../../static/images/designer_images/zcool_designer_09.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_15.png",
+        "name": "小帽",
+        "city": "北京市",
+        "job": "插画师",
+        "works": "534",
+        "follower": "34892",
+        "tip": "我的微信号：solosm",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_16.png",
+          "../../static/images/designer_images/zcool_designer_17.png",
+          "../../static/images/designer_images/zcool_designer_18.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_23.png",
+        "name": "研习社K线上",
+        "city": "北京市",
+        "job": "平面设计师",
+        "works": "53344",
+        "follower": "43435",
+        "tip": "关注《研习社》订阅号yanxishe293",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_24.png",
+          "../../static/images/designer_images/zcool_designer_25.png",
+          "../../static/images/designer_images/zcool_designer_26.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_31.png",
+        "name": "miasd",
+        "city": "深圳",
+        "job": "网页设计师",
+        "works": "534",
+        "follower": "34892",
+        "tip": "个人分享专业知识微信订阅号",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_32.png",
+          "../../static/images/designer_images/zcool_designer_33.png",
+          "../../static/images/designer_images/zcool_designer_34.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_39.png",
+        "name": "左手韩",
+        "city": "大连",
+        "job": "插画师",
+        "works": "53234",
+        "follower": "2323",
+        "tip": "",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_40.png",
+          "../../static/images/designer_images/zcool_designer_41.png",
+          "../../static/images/designer_images/zcool_designer_42.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_47.png",
+        "name": "小明",
+        "city": "北京市",
+        "job": "插画师",
+        "works": "5334",
+        "follower": "3482392",
+        "tip": "一个快乐的小二货，在用生命陪你玩啥",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_48.png",
+          "../../static/images/designer_images/zcool_designer_49.png",
+          "../../static/images/designer_images/zcool_designer_50.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_55.png",
+        "name": "杰克ass",
+        "city": "成都",
+        "job": "平面设计师",
+        "works": "5342",
+        "follower": "34892",
+        "tip": "杰士邦--www.clubweb80.com线下",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_56.png",
+          "../../static/images/designer_images/zcool_designer_57.png",
+          "../../static/images/designer_images/zcool_designer_58.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_63.png",
+        "name": "Edssias",
+        "city": "深圳",
+        "job": "平面设计师",
+        "works": "53423",
+        "follower": "343892",
+        "tip": "微信号234234通过的理由",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_64.png",
+          "../../static/images/designer_images/zcool_designer_65.png",
+          "../../static/images/designer_images/zcool_designer_66.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_71.png",
+        "name": "张小波",
+        "city": "上海市",
+        "job": "平面设计师",
+        "works": "53234",
+        "follower": "342892",
+        "tip": "字体课程报名咨询:239823",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_72.png",
+          "../../static/images/designer_images/zcool_designer_73.png",
+          "../../static/images/designer_images/zcool_designer_74.png"
+        ]
+      },
+      {
+        "head_img": "../../static/images/designer_images/zcool_designer_79.png",
+        "name": "碳碳",
+        "city": "广州",
+        "job": "设计爱好者",
+        "works": "53423",
+        "follower": "3423892",
+        "tip": "合作QQ239842093 公众号：超可爱联盟",
+        "opus": [
+          "../../static/images/designer_images/zcool_designer_80.png",
+          "../../static/images/designer_images/zcool_designer_81.png",
+          "../../static/images/designer_images/zcool_designer_82.png"
+        ]
+      }
+    ]
+  },
+  "static": "success",
+  "ok": 200
+}

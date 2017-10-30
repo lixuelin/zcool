@@ -1,0 +1,245 @@
+{
+  "result": {
+    "ps":{
+      "title": "设计方向",
+      "list":[
+        "平面","UI","视觉","网页","原画","插画","动画","游戏UI","3D设计","多媒体","摄影师","实习生"
+      ]
+    },
+    "job": {
+      "title": "管理职位",
+      "list": [
+        "设计经理","设计总监","视觉总监","视觉经理","交互经理"
+      ]
+    },
+    "words":[
+      "UI","平面设计","实习","插画","网页设计"
+    ],
+    "tjJob":[
+      {
+        "hot": "精选",
+        "title": "平面设计师 北京/成都",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "4K-10K",
+        "years": "不限",
+        "school": "本科",
+        "company_img": "../static/images/job_images/zcool_job_07.png",
+        "company": "JAN_Creation",
+        "tip": "艺术/不需要融资",
+        "tags": [
+          "带薪年假","成长迅猛"
+        ],
+        "detail": "有趣的灵魂终将会相遇"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "14K-18K",
+        "years": "1-3年",
+        "school": "本科",
+        "company_img": "../static/images/job_images/zcool_job_11.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "7K-12K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_12.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "8K-16K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_19.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "12K-20K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_20.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "15K-22K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_21.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "11K-16K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_23.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "10K-18K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_26.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "14K-18K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_27.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "12K-18K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_28.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "14K-18K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_33.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "14K-18K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_35.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "4K-8K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_37.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      },
+      {
+        "hot": "",
+        "title": "销售专员-图库项目",
+        "city": "北京",
+        "time": "1天前",
+        "pay": "4K-8K",
+        "years": "1-3年",
+        "school": "大专",
+        "company_img": "../static/images/job_images/zcool_job_39.png",
+        "company": "站酷ZCOOL",
+        "tip": "互联网/成长型（B轮）",
+        "tags": [
+          "定期体检","带薪年假","午餐补助"
+        ],
+        "detail": "打开站酷，发现更好的设计"
+      }
+    ]
+  }
+}

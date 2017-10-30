@@ -1,0 +1,75 @@
+@charset "utf-8";
+.z-find-top {
+  background: #fff;
+}
+.z-find-ad {
+  padding: 20px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+.z-find-ad img {
+  display: block;
+  width: 100%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.z-find-tags {
+  padding-top: 25px;
+}
+.z-find-tags ul {
+  display: flex;
+}
+.z-find-tags li {
+  flex: 1;
+}
+.z-find-tags li:first-child {
+  color: #d36f16;
+}
+.z-find-tags li span {
+  display: inline-block;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+.z-find-tags li span:hover {
+  background: #fafafa;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.z-find-tagsEdit {
+  border-bottom: 2px solid #eee;
+}
+.z-find-share-head {
+  display: flex;
+  justify-content: center;
+}
+.z-find-share-head span {
+  flex: 9;
+}
+.z-find-share-head a {
+  flex: 1;
+  color: #ffd100;
+  text-align: right;
+}
+.z-find-share-head i {
+  margin-left: 10px;
+  font-size: 20px;
+  vertical-align: -1px;
+}
+.z-find-share-list .z-groom-img {
+  margin: 17px auto 0;
+  width: 178px;
+}
+.z-find-share-list .z-groom-head,
+.z-find-share-list .z-groom-cont {
+  padding: 10px 16px;
+}
+.z-find-bottom {
+  margin-bottom: 20px;
+}
+.z-find-bottom img {
+  display: block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}

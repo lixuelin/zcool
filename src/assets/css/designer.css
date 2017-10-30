@@ -1,0 +1,29 @@
+@charset "utf-8";
+.z-designer-choose {
+  line-height: 50px;
+  background: #fff;
+}
+.z-designer-choose-select {
+  display: flex;
+}
+.z-designer-choose-select li {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.z-designer-choose-select li i {
+  margin-left: 5px;
+}
+.z-designer-choose-select li:first-child {
+  color: #ccc;
+}
+.z-designer-choose-term {
+  flex: 6;
+}
+.z-designer-choose-sort {
+  flex: 3;
+  text-align: right;
+}
+.z-designer-main-head {
+  padding: 20px 0;
+}

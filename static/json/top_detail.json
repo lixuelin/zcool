@@ -1,0 +1,18 @@
+{
+  "result": {
+    "menu": [
+      "相关作品","收录收藏夹"
+    ],
+    "tag": [
+      "节气","插画","回忆","童年"
+    ],
+    "opus": [
+      "../../static/images/top_detail/zcool_top_detai_32.png",
+      "../../static/images/top_detail/zcool_top_detai_34.png",
+      "../../static/images/top_detail/zcool_top_detai_36.png",
+      "../../static/images/top_detail/zcool_top_detai_38.png",
+      "../../static/images/top_detail/zcool_top_detai_40.png",
+      "../../static/images/top_detail/zcool_top_detai_42.png"
+    ]
+  }
+}

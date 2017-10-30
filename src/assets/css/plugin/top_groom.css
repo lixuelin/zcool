@@ -1,0 +1,125 @@
+@charset "utf-8";
+.top-groom li:last-child .top-groom-cont {
+  border-bottom: none;
+}
+.top-groom-cont {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+.top-groom-cont-ranking {
+  flex: 2;
+  padding-top: 50px;
+  color: #ccc;
+  text-align: center;
+}
+.top-groom-cont-ranking-num {
+  display: block;
+  font-size: 30px;
+  color: #333;
+  font-weight: 700;
+}
+.top-groom-cont-ranking-score {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+.top-groom-cont-opus {
+  flex: 4;
+}
+.top-groom-cont-opus-img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 195px;
+  cursor: pointer;
+}
+.top-groom-cont-opus-img:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.top-groom-cont-opus-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.top-groom-cont-anthour {
+  flex: 6;
+  padding-left: 10px;
+}
+.top-groom-cont-anthour h4 {
+  padding: 15px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.top-groom-cont-anthour h4:hover {
+  color: #ff8600;
+}
+.top-groom-cont-anthour-tag {
+  color: #ccc;
+}
+.top-groom-cont-anthour-foot {
+  margin-top: 30px;
+}
+.top-groom-cont-anthour-name {
+  cursor: pointer;
+}
+.top-groom-cont-anthour-name:hover {
+  color: #ff8600;
+}
+.top-groom-cont-anthour-img {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.top-groom-cont-anthour-img img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+.top-groom-cont-anthour time {
+  color: #ccc;
+}
+.top-groom-cont-skip {
+  flex: 2;
+  padding-top: 170px;
+  cursor: pointer;
+}
+.top-groom-have {
+  display: flex;
+  padding: 20px 0;
+  background: #f9f9f9;
+  border-bottom: 1px solid #eee;
+}
+.top-groom-have-prev {
+  flex: 2;
+  color: #ccc;
+  text-align: center;
+}
+.top-groom-have-cont {
+  flex: 12;
+}
+.top-groom-have-cont-row {
+  margin-bottom: 10px;
+}
+.top-groom-have-cont-detail {
+  display: inline-block;
+  width: 70px;
+}
+.top-groom-have-cont-detail span {
+  color: #ccc;
+}
+.top-groom-have-cont-line {
+  display: inline-block;
+  margin: 0 30px;
+  vertical-align: 13px;
+  color: #ccc;
+}

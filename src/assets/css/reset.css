@@ -1,0 +1,53 @@
+@charset 'utf-8';
+html,
+body {
+  color: #333;
+}
+body {
+  background: #f4f4f4;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #444;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  color: #444;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.z-wraper {
+  margin: 0 auto;
+  width: 1130px;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}

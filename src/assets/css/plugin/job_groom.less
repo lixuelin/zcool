@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+.r(@w){
+	-moz-border-radius: @w;
+	-webkit-border-radius: @w;
+	border-radius: @w;
+}
+.rl(@l,@t){
+	-moz-border-radius: @l @t 0 0;
+	-webkit-border-radius: @l @t 0 0;
+	border-radius: @l @t 0 0;
+}
+
+.rr(@b,@l){
+	-moz-border-radius: 0 0 @b @l;
+	-webkit-border-radius: 0 0 @b @l;
+	border-radius: 0 0 @b @l;
+}
+
+.rt(@t,@r){
+	-moz-border-radius: @t 0 @r 0;
+	-webkit-border-radius: @t 0 @r 0;
+	border-radius: @t 0 @r 0;
+}
+
+.job-groom{
+	margin-top: 20px;
+	& li{
+		
+		position: relative;
+		margin-bottom: 20px;
+	}	
+	
+	&-hot{
+		position: absolute;
+		right: 40px;
+		top: 0;
+		
+		&-bg{
+			position: absolute;
+			border-top: 40px solid #ff8600;
+    		border-left: 40px solid transparent;
+		}
+		
+		&-name{
+			position: absolute;
+			top: 7px;
+			right: -45px;
+			z-index: 3;
+			width: 40px;
+			font-size: 12px;
+			color: #fff;
+			text-align: center;
+			-moz-transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+	}
+	
+	&-cont{
+		display: flex;
+		padding: 20px;
+		background: #fff;
+		.rl(3px,3px);
+		
+		& h4{
+			padding-bottom: 15px;
+			font-size: 16px;
+			cursor: pointer;
+			
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		
+		&-job{
+			flex: 6;
+			
+			&-time{
+				font-size: 12px;
+				color: #999;
+			}
+			& p{
+				font-size: 12px;
+				color: #999;
+			}
+			
+			&-pay{
+				padding-right: 5px;
+				font-weight: 600;
+				font-size: 16px;
+				color: #ff8600;
+			}
+			
+		}
+		
+		&-company{
+			position: relative;
+			padding-left: 64px;
+			flex: 3;
+			
+			&-img{
+				position: absolute;
+				left: 0;
+				width: 54px;
+				height: 54px;
+				cursor: pointer;
+				.r(3px);
+				
+				& img{
+					display: block;
+					width: 100%;
+					.r(3px)
+				}
+				
+				&:hover:after{
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: rgba(255,255,255,.4);
+				}
+			}
+			
+			& span{
+				font-size: 12px;
+				color: #999;
+			}
+		}
+	}
+	
+	&-other{
+		display: flex;
+		padding: 20px;
+		font-size: 12px;
+		color: #666;
+		background: #fafafa;
+		.rr(3px,3px);
+		
+		&-detail{
+			flex: 6;
+			padding: 2px 0;
+		}
+		
+		&-tag{
+			position: relative;
+			left: -64px;
+			padding-left: 64px;
+			flex: 3;
+			
+			& span{
+				display: inline-block;
+				margin-right: 5px;
+				padding: 2px 8px;
+				border: 1px solid #ededed;
+				background: #fff;
+				.r(10px)
+			}
+		}
+	}
+}

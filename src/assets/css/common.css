@@ -1,0 +1,181 @@
+@charset 'utf-8';
+.z-head {
+  height: 56px;
+  background: #ffd100;
+}
+.z-head-logo {
+  padding: 17px 0;
+}
+.z-head-nav {
+  text-align: right;
+}
+.z-head-nav > li {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.z-head-nav > li > a {
+  display: block;
+  padding: 0 20px;
+  line-height: 56px;
+}
+.z-head-nav > li > a:hover {
+  background: #282828;
+  color: #FFD100;
+}
+.z-head-nav li:hover div.z-head-nav-list {
+  display: block;
+}
+.z-head-nav > li.current {
+  font-weight: 700;
+}
+.z-head-nav-more a {
+  font-size: 16px;
+  font-weight: 700;
+}
+.z-head-nav-list {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  padding: 5px 0;
+  width: 150px;
+  background: #fff;
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+.z-head-nav-list a {
+  display: block;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #333;
+  font-weight: normal;
+  line-height: 40px;
+}
+.z-head-nav-list a:hover {
+  background: #ffd100;
+}
+.z-head-nav-tags {
+  width: 660px;
+}
+.z-head-nav-tags ul {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 10px 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.z-head-nav-tags li {
+  position: relative;
+  flex-basis: 14%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.z-head-nav-tags li:nth-child(7n) i {
+  display: none;
+}
+.z-head-nav-tags a {
+  display: inline-block;
+  padding: 5px 10px;
+  line-height: 1;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.z-head-nav-tags i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -7px;
+  width: 1px;
+  height: 14px;
+  background: #ccc;
+}
+.z-head-nav-choice {
+  padding: 10px;
+}
+.z-head-nav-choice a:hover {
+  color: #ff8600;
+  background: none;
+}
+.z-head-set li {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 56px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.z-head-set li:hover {
+  background: #282828;
+  color: #ffd100;
+}
+.z-head-login li {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 56px;
+  cursor: pointer;
+}
+.z-head-login-line span {
+  display: inline-block;
+  width: 1px;
+  height: 18px;
+  background: #282828;
+  vertical-align: -4px;
+}
+.z-foot {
+  background: #282828;
+  color: #666;
+}
+.z-foot a {
+  color: #666;
+}
+.z-foot a:hover {
+  color: #999;
+}
+.z-foot-nav {
+  position: relative;
+  padding: 50px 0;
+  border-bottom: 1px solid #333;
+}
+.z-foot-nav li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 14px;
+}
+.z-foot-nav span {
+  margin-right: 5px;
+  font-size: 30px;
+  vertical-align: -6px;
+}
+.z-foot-nav-talk {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.z-foot-nav-talk span {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.z-foot-icp {
+  padding-top: 20px;
+  font-size: 12px;
+}
+.z-foot-icp-cont {
+  padding-bottom: 20px;
+}
+.z-foot-icp-line {
+  display: inline-block;
+  margin: 0 20px;
+  width: 1px;
+  height: 20px;
+  background: #666;
+  vertical-align: -4px;
+}
+.z-btn {
+  border: 1px solid #ccc;
+}

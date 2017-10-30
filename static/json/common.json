@@ -1,0 +1,35 @@
+{
+  "result":{
+    "foot": {
+      "nav":[
+        {
+          "title": "关于我们",
+          "href": ""
+        },{
+          "title": "加入站酷",
+          "href": ""
+        },{
+          "title": "用户协议",
+          "href": ""
+        },{
+          "title": "企业服务",
+          "href": ""
+        },{
+          "title": "帮助中心",
+          "href": ""
+        },{
+          "title": "联系我们",
+          "href": ""
+        },{
+          "title": "中文",
+          "href": ""
+        },{
+          "title": "English",
+          "href": ""
+        }
+      ]
+    }
+  },
+  "status": "success",
+  "ok": 200
+}

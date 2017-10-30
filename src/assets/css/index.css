@@ -1,0 +1,32 @@
+@charset 'utf-8';
+.z-index-top {
+  padding-top: 20px;
+  background: #fff;
+}
+.z-index-tj {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.z-index-tj ul {
+  display: flex;
+}
+.z-index-tj li {
+  flex: 1;
+  margin-right: 20px;
+}
+.z-index-tj li:last-child {
+  margin-right: 0;
+}
+.z-index-ad {
+  margin-bottom: 40px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.z-index-ad img {
+  display: block;
+  width: 100%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}

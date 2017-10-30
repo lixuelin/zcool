@@ -1,0 +1,47 @@
+@charset "utf-8";
+.designer-dialog-input {
+  margin-bottom: 20px;
+}
+.designer-dialog-input input {
+  display: block;
+  padding: 0 10px;
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  background: #f4f4f4;
+  resize: none;
+  outline: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.designer-dialog-send {
+  display: flex;
+}
+.designer-dialog-add {
+  flex: 1;
+  text-align: left;
+}
+.designer-dialog-look {
+  display: inline-block;
+  margin-right: 10px;
+  width: 19px;
+  height: 19px;
+  background: url(../../../../static/images/designer_detail/zcool_designer_detail_53.png);
+  vertical-align: -3px;
+}
+.designer-dialog-msg {
+  flex: 1;
+  text-align: right;
+}
+.designer-dialog-btn {
+  padding: 4px 20px;
+  color: #bbb;
+  border-color: #eee;
+  background: #eee;
+  outline: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}

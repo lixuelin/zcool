@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.z-designer{
+	&-choose{
+		line-height: 50px;
+		background: #fff;
+		
+		&-select{
+			display: flex;
+			& li{
+				display: inline-block;
+				margin-right: 10px;
+				cursor: pointer;
+				& i{
+					margin-left: 5px;
+				}
+				
+				&:first-child{
+					color: #ccc;
+				}
+			}
+		}
+		
+		&-term{
+			flex: 6;
+		}
+		
+		&-sort{
+			flex: 3;
+			text-align: right;
+		}
+	}
+	
+	&-main{
+		&-head{
+			padding: 20px 0;
+		}
+	}
+}

@@ -1,0 +1,129 @@
+@charset "utf-8";
+.job-groom {
+  margin-top: 20px;
+}
+.job-groom li {
+  position: relative;
+  margin-bottom: 20px;
+}
+.job-groom-hot {
+  position: absolute;
+  right: 40px;
+  top: 0;
+}
+.job-groom-hot-bg {
+  position: absolute;
+  border-top: 40px solid #ff8600;
+  border-left: 40px solid transparent;
+}
+.job-groom-hot-name {
+  position: absolute;
+  top: 7px;
+  right: -45px;
+  z-index: 3;
+  width: 40px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.job-groom-cont {
+  display: flex;
+  padding: 20px;
+  background: #fff;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.job-groom-cont h4 {
+  padding-bottom: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.job-groom-cont h4:hover {
+  text-decoration: underline;
+}
+.job-groom-cont-job {
+  flex: 6;
+}
+.job-groom-cont-job-time {
+  font-size: 12px;
+  color: #999;
+}
+.job-groom-cont-job p {
+  font-size: 12px;
+  color: #999;
+}
+.job-groom-cont-job-pay {
+  padding-right: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff8600;
+}
+.job-groom-cont-company {
+  position: relative;
+  padding-left: 64px;
+  flex: 3;
+}
+.job-groom-cont-company-img {
+  position: absolute;
+  left: 0;
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.job-groom-cont-company-img img {
+  display: block;
+  width: 100%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.job-groom-cont-company-img:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+}
+.job-groom-cont-company span {
+  font-size: 12px;
+  color: #999;
+}
+.job-groom-other {
+  display: flex;
+  padding: 20px;
+  font-size: 12px;
+  color: #666;
+  background: #fafafa;
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.job-groom-other-detail {
+  flex: 6;
+  padding: 2px 0;
+}
+.job-groom-other-tag {
+  position: relative;
+  left: -64px;
+  padding-left: 64px;
+  flex: 3;
+}
+.job-groom-other-tag span {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 2px 8px;
+  border: 1px solid #ededed;
+  background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
