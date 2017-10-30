@@ -1,6 +1,6 @@
 # zcool
 
-> A Vue.js project
+> 仿站酷网站使用vue-cli+router+flex
 
 ## Build Setup
 
