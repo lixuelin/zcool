@@ -1,6 +1,7 @@
 # zcool
 
 > 仿站酷网站使用vue-cli+router+flex
+> 本项目使用最新版vue2进行构建，项目中使用vue-router控制路由，另外引入了几个常用的vue插件，比如使用vue-axios处理http请求，使用vue-awesome-weiper处理首页轮播，项目中使用到了vue的大部分知识点。
 
 ## Build Setup
 
