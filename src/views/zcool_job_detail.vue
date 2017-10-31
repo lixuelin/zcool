@@ -53,15 +53,15 @@
               </p>
             </div>
           </div>
-          <groom-list v-bind:jobData="jobList"></groom-list>
+          <groom-list v-bind:jobData="jobList" v-on:curData="showChildren"></groom-list>
         </article>
         <aside class="job-detail-aside job-detail-company">
           <div class="job-detail-aside-box">
             <div class="job-detail-company-head">
               <div class="job-detail-company-img">
-                <img src="../../static/images/job_images/zcool_job_07.png" />
+                <img :src="jobData.company_img" />
               </div>
-              <p class="job-detail-company-name">减艺（北京）国际文化传播有限公司</p>
+              <p class="job-detail-company-name">{{jobData.company}}</p>
               <div class="job-detail-company-btn">
                 <button class="z-btn">查看主页</button>
               </div>
@@ -169,6 +169,9 @@
         }, (err) => {
           console.log(err)
         })
+      },
+      showChildren: function (data) {
+        this.jobData = data
       }
     }
   }

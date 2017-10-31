@@ -38,12 +38,15 @@ export default {
   props: ['jobData'],
   methods: {
     gotoDetail: function (item) {
-      console.log(item)
-      this.$router.push({
-        path: '/job_detail',
-        name: 'jobDetail',
-        params: item
-      })
+      if (this.$route.path === '/job_detail') {
+        this.$emit('curData', item)
+      } else {
+        this.$router.push({
+          path: '/job_detail',
+          name: 'jobDetail',
+          params: item
+        })
+      }
     }
   }
 }
