@@ -14,7 +14,7 @@
             </div>
           </div>
           <div class="top-groom-cont-anthour">
-            <h4 v-on:click="gotoDetail()">{{item.title}}</h4>
+            <h4 v-on:click="gotoDetail(item)">{{item.title}}</h4>
             <span class="top-groom-cont-anthour-tag">{{item.tag}}</span>
             <div class="top-groom-cont-anthour-foot">
               <div class="top-groom-cont-anthour-img" v-on:click="gotoAuthor(item)">
@@ -27,10 +27,10 @@
             </div>
           </div>
           <div class="top-groom-cont-skip">
-            <span>查看详情 <span class="icon-angle-down"></span></span>
+            <span @click="showDetail(item)">查看详情<span :class="{'icon-angle-down': isHide,'icon-angle-up': !isHide}"></span></span>
           </div>
         </div>
-        <div class="top-groom-have" v-show="false">
+        <div class="top-groom-have" v-show="item.showDetail">
           <div class="top-groom-have-prev">
             <span>上周数据详情</span>
           </div>
@@ -84,7 +84,8 @@ export default {
   name: '.topGroom',
   data () {
     return {
-      data: {}
+      data: {},
+      isHide: false
     }
   },
   props: ['groomData'],
@@ -94,7 +95,6 @@ export default {
   methods: {
     setData: function (item) {
       this.data = item
-      console.log(this.groomData)
     },
     gotoDetail: function (items) {
       console.log(items)
@@ -110,6 +110,10 @@ export default {
         name: 'designerDetail',
         params: items
       })
+    },
+    showDetail: function (item) {
+      item.showDetail = !item.showDetail
+      this.isHide = !this.isHide
     }
   }
 }
