@@ -1,7 +1,7 @@
 <template>
   <div class="z-groom groomList">
     <ul class="clearfix">
-      <li v-for="item in listGrooms">
+      <li v-for="(item,index) in listGrooms">
         <div>
           <div class="z-groom-img" @click="gotoDetail(item)">
             <span class="z-groom-img-tip" v-show="item.tip">{{item.tip}}</span>
@@ -19,15 +19,18 @@
             </p>
           </div>
           <div class="z-groom-cont">
-            <div class="z-groom-cont-img" @click="gotoDesigner(item)">
+            <div class="z-groom-cont-img" @click="gotoDesigner(item)" @mouseover="showAuthor(index)" @mouseout="hideAuthor">
               <img v-bind:src="item.img_url" />
             </div>
-            <div class="z-groom-cont-name" @click="gotoDesigner(item)">
+            <div class="z-groom-cont-name" @click="gotoDesigner(item)" @mouseover="showAuthor(index)" @mouseout="hideAuthor">
               <span>{{item.author}}</span>
             </div>
             <div class="z-groom-time">
               <time>{{item.time}}</time>
             </div>
+          </div>
+          <div class="z-groom-author" v-show="index == cur">
+            <zcool-author :authorData="item"></zcool-author>
           </div>
         </div>
       </li>
@@ -36,8 +39,18 @@
 </template>
 
 <script>
+import Author from '../components/z_author'
 export default {
   name: '.groomList',
+  data () {
+    return {
+      isAuthor: false,
+      cur: ''
+    }
+  },
+  components: {
+    'zcoolAuthor': Author
+  },
   props: ['listGrooms'],
   methods: {
     gotoDetail: function (items) {
@@ -53,6 +66,12 @@ export default {
         name: 'designerDetail',
         params: items
       })
+    },
+    showAuthor: function (index) {
+      this.cur = index
+    },
+    hideAuthor: function () {
+      this.cur = 99999
     }
   }
 }

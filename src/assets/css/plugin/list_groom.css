@@ -7,6 +7,7 @@
   flex-wrap: wrap;
 }
 .z-groom li {
+  position: relative;
   flex: 1;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -118,4 +119,32 @@
 .z-groom-cont-time {
   flex: 2;
   color: #bbb;
+}
+.z-groom-author {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.z-groom-author .z-author {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+.z-groom-author .z-author-img {
+  margin-bottom: 10px;
+}
+.z-groom-author:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-top-color: #fff;
 }
