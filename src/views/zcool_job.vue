@@ -3,8 +3,10 @@
     <div class="z-job-top">
       <div class="z-wraper z-job-top-cont">
         <div class="z-job-city">
-          <span class="z-job-city-current">北京</span><span class="z-job-city-choose">切换城市<span class="icon-angle-right"></span></span>
+          <span class="z-job-city-current">{{curCity}}</span>
+          <span class="z-job-city-choose" @click="showCity=true">切换城市<span class="icon-angle-right"></span></span>
         </div>
+        <job-city ref="setCity" :curCity="curCity" @changeCity="checkCity" v-show="showCity"></job-city>
         <div class="z-job-nav">
           <ul>
             <li class="current">
@@ -113,10 +115,13 @@
 <script>
 import List from '../components/job_list'
 import Groom from '../components/job_groom'
+import City from '../components/z_city'
 export default {
   name: '#zJob',
   data () {
     return {
+      curCity: '北京',
+      showCity: false,
       psData: {},
       jobData: {},
       words: [],
@@ -125,13 +130,14 @@ export default {
   },
   components: {
     'jobList': List,
-    'jobItem': Groom
+    'jobItem': Groom,
+    'jobCity': City
   },
   mounted () {
     this.getData()
   },
   methods: {
-    getData: function () {
+    getData () {
       this.$http.get('../static/json/job.json').then((res) => {
         this.psData = res.data.result.ps
         this.jobData = res.data.result.job
@@ -140,6 +146,11 @@ export default {
       }, (err) => {
         console.log(err)
       })
+    },
+    checkCity (data) {
+      console.log(data)
+      this.curCity = data.city
+      this.showCity = data.showCity
     }
   }
 }
